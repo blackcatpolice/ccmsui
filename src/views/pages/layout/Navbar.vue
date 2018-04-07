@@ -2,41 +2,12 @@
 <template>
   <div>
     <div class="wrapper-logo">
-      <img src="../../../assets/img/logo2.png" alt="">
     </div>
   <el-menu class="navbar" mode="horizontal">
     <!--<Hamburger class="hamburger-container" :toggleClick="toggleSideBar" :isActive="sidebar.opened"></Hamburger>-->
     <levelbar></levelbar>
     <ccms-err-log v-if="log.length>0" class="errLog-container" :logsList="log"></ccms-err-log>
     <div class="wrapper-logo" style="float: left;">
-      <img src="../../../assets/img/logo2.png" alt="" style="height: 70px; padding: 16px;">
-    </div>
-    <div class="list-navbar">
-    <el-dropdown class="avatar-container" trigger="hover" @visible-change="dropDownChange">
-      <div class="avatar-wrapper">
-        <img class="user-avatar" src="../../../assets/img/ben.png">
-        <span class="avatar-text">{{usrUid}}</span>
-        <i class="el-icon-caret-bottom" style="color:#fff;"/>
-      </div>
-      <el-dropdown-menu class="user-dropdown" slot="dropdown">
-        <router-link class='inlineBlock' to="/">
-          <el-dropdown-item>
-            {{$t('common.link.index')}}
-          </el-dropdown-item>
-        </router-link>
-        <router-link class='inlineBlock' to="/system/userInfo/mPwd">
-          <el-dropdown-item>
-            {{$t('common.link.modifyPwd')}}
-          </el-dropdown-item>
-        </router-link>
-        <!-- <el-dropdown-item divided><a :href='logOutUrl'>退出登录</a></el-dropdown-item> -->
-        <el-dropdown-item divided><span @click="logoutSSO" style="display:block;">{{$t('common.link.logOut')}}</span></el-dropdown-item>
-        <!--<el-dropdown-item divided><span @click="logout" style="display:block;">退出登录</span></el-dropdown-item>-->
-      </el-dropdown-menu>
-    </el-dropdown>
-    <el-dropdown class="msg-domestic" trigger="click">
-      <span class="home-page" @click="toHome">{{$t('common.link.index')}}</span>
-    </el-dropdown>
     </div>
   </el-menu>
   </div>

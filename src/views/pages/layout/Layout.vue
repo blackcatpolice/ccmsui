@@ -9,29 +9,6 @@
       <App-main/>
     </div>
   </div>
-    <img src="../../../assets/img/dialogue.png" style="position: fixed;bottom: 15px;right: 5px;height: 180px;cursor: pointer;z-index: 999" :title="$t('dialogue')" @click="goDialogue" id="move">
-    <div id="dialog">
-      <el-dialog :visible.sync="dialogTableVisible" :title="$t('dialogue')">
-        <iframe :src=url width="900px" height="668px" style="border: none;"></iframe>
-      </el-dialog>
-    </div>
-    <div style="height: 18px;line-height: 18px;margin-top: 10px;width: 100%;text-align: center;border:1px solid #ddd;position: fixed;bottom:0;background: #fff;color:#777;font-size: 12px;">
-      <span>© copyright 中国银行软件中心  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;联系我们：系统维护/风险管理部/总行/BOC</span>
-    </div>
-    <div class="mask-batch" v-if="sysIsBatch.show"></div>
-    <div class="box-batch-wraper" v-if="sysIsBatch.show">
-      <div class="box-batch">
-        <!--<div class="box-batch-header">-->
-          <!--<div class="box-batch-title">提示</div>-->
-        <!--</div>-->
-        <div class="box-batch-content">
-          <div class="box-batch-status el-icon-warning"></div>
-          <div class="box-batch-message">
-            <p>{{sysIsBatch.msg}}</p>
-          </div>
-        </div>
-      </div>
-    </div>
   </div>
 </template>
 
