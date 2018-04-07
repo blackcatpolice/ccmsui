@@ -5,8 +5,8 @@
 #安装
 npm install ccms-ui
 
-#使用 
-main.js
- import ccmsUi from 'ccms-ui'
- import 'ccms-ui/dist/ccm-ui.css'
- Vue.use(ccmsUi)
+#使用
+#main.js
+ #import ccmsUi from 'ccms-ui'
+ #import 'ccms-ui/dist/ccm-ui.css'
+ #Vue.use(ccmsUi)
