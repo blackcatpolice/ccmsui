@@ -1,0 +1,8 @@
+ClearCase CopyAreaDB|4
+vobs\cv_ccms-g_code\gnpl\ccms_view\gnpl_vue\src\store\modules
+2
+4
+6:app.js|1|160baab6332|3a1|0|b6d87b121c6211e880060002c207e44c|0
+7:init.js|1|160ba9c9be5|3d0|0|c1387b2e1c6211e880060002c207e44c|0
+d:permission.js|1|161fa9ed58a|9e9|0|b2a87af61c6211e880060002c207e44c|0
+7:user.js|1|161fa9af777|972|0|a8887ada1c6211e880060002c207e44c|0

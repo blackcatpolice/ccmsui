@@ -1,0 +1,24 @@
+.ccms-input-dialog .dialog-fade-enter-active,.ccms-input-dialog .v-modal-enter {
+  opacity: 1;
+  animation: none;
+}
+.ccms-input-dialog .dialog-fade-leave-active,.ccms-input-dialog .v-modal-leave {
+  opacity: 0;
+  animation: none;
+}
+.ccms-input-dialog .custom-icon {
+  position: absolute;
+  color: #bfcbd9;
+  right: 10px;
+  top: 10px;
+  font-size: 14px;
+}
+.ccms-input-dialog .dialog-footer {
+  display: block;
+  text-align: center;
+}
+.ccms-input-dialog .organization-tree {
+  overflow-y: auto;
+  height: 55.5vh;
+  padding-bottom: 20px;
+}

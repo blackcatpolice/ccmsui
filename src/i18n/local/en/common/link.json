@@ -1,0 +1,14 @@
+{
+  "index": "en_首页",
+  "modifyPwd": "en_修改密码",
+  "logOut": "en_退出",
+  "demo": "en_案列",
+  "table": "en_表格",
+  "form": "en_表单",
+  "baseComponent": "en_基本组件",
+  "nplManage": "en_表内不良管理",
+  "listIndex": "en_不良客户列表",
+  "processManage": "en_过程管理",
+  "fullLifeCycle": "en_生命周期",
+  "borrowHistoryLog": "en_审批记录"
+}

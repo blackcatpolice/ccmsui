@@ -1,0 +1,268 @@
+@charset "UTF-8";
+.cc-input, .cc-input__inner {
+  width: 100%;
+  display: inline-block
+}
+
+.cc-input__inner, .cc-textarea__inner {
+  box-sizing: border-box;
+  background-image: none
+}
+
+.cc-input {
+  position: relative;
+  font-size: 14px
+}
+
+.cc-input.is-disabled .cc-input__inner {
+  background-color: #eef1f6;
+  border-color: #d1dbe5;
+  color: #bbb;
+  cursor: not-allowed
+}
+
+.cc-input.is-disabled .cc-input__inner::-webkit-input-placeholder {
+  color: #bfcbd9
+}
+
+.cc-input.is-disabled .cc-input__inner::-moz-placeholder {
+  color: #bfcbd9
+}
+
+.cc-input.is-disabled .cc-input__inner:-ms-input-placeholder {
+  color: #bfcbd9
+}
+
+.cc-input.is-disabled .cc-input__inner::placeholder {
+  color: #bfcbd9
+}
+
+.cc-input.is-active .cc-input__inner {
+  outline: 0;
+  border-color: #20a0ff
+}
+
+.cc-input__inner {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: #fff;
+  border-radius: 4px;
+  border: 1px solid #bfcbd9;
+  color: #1f2d3d;
+  font-size: inherit;
+  height: 36px;
+  line-height: 1;
+  outline: 0;
+  padding: 3px 10px;
+  transition: border-color .2s cubic-bezier(.645, .045, .355, 1)
+}
+
+.cc-input__inner::-webkit-input-placeholder {
+  color: #97a8be
+}
+
+.cc-input__inner::-moz-placeholder {
+  color: #97a8be
+}
+
+.cc-input__inner:-ms-input-placeholder {
+  color: #97a8be
+}
+
+.cc-input__inner::placeholder {
+  color: #97a8be
+}
+
+.cc-input__inner:hover {
+  border-color: #8391a5
+}
+
+.cc-input__inner:focus {
+  outline: 0;
+  border-color: #20a0ff
+}
+
+.cc-input__icon {
+  position: absolute;
+  width: 35px;
+  height: 100%;
+  right: 0;
+  top: 0;
+  text-align: center;
+  color: #bfcbd9;
+  transition: all .3s
+}
+
+.cc-input__icon:after {
+  content: '';
+  height: 100%;
+  width: 0;
+  display: inline-block;
+  vertical-align: middle
+}
+
+.cc-input__icon + .cc-input__inner {
+  padding-right: 35px
+}
+
+.cc-input__icon.is-clickable:hover {
+  cursor: pointer;
+  color: #8391a5
+}
+
+.cc-input__icon.is-clickable:hover + .cc-input__inner {
+  border-color: #8391a5
+}
+
+.cc-input--large {
+  font-size: 16px
+}
+
+.cc-input--large .cc-input__inner {
+  height: 42px
+}
+
+.cc-input--small {
+  font-size: 13px
+}
+
+.cc-input--small .cc-input__inner {
+  height: 30px
+}
+
+.cc-input--mini {
+  font-size: 12px
+}
+
+.cc-input--mini .cc-input__inner {
+  height: 22px
+}
+
+.cc-input-group {
+  line-height: normal;
+  display: inline-table;
+  width: 100%;
+  border-collapse: separate
+}
+
+.cc-input-group > .cc-input__inner {
+  vertical-align: middle;
+  display: table-cell
+}
+
+.cc-input-group__append, .cc-input-group__prepend {
+  background-color: #fbfdff;
+  color: #97a8be;
+  vertical-align: middle;
+  display: table-cell;
+  position: relative;
+  border: 1px solid #bfcbd9;
+  border-radius: 4px;
+  padding: 0 10px;
+  width: 1px;
+  white-space: nowrap
+}
+
+.cc-input-group--prepend .cc-input__inner, .cc-input-group__append {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0
+}
+
+.cc-input-group--append .cc-input__inner, .cc-input-group__prepend {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0
+}
+
+.cc-input-group__append .cc-button, .cc-input-group__append .cc-select, .cc-input-group__prepend .cc-button, .cc-input-group__prepend .cc-select {
+  display: block;
+  margin: -10px
+}
+
+.cc-input-group__append button.cc-button, .cc-input-group__append div.cc-select .cc-input__inner, .cc-input-group__append div.cc-select:hover .cc-input__inner, .cc-input-group__prepend button.cc-button, .cc-input-group__prepend div.cc-select .cc-input__inner, .cc-input-group__prepend div.cc-select:hover .cc-input__inner {
+  border-color: transparent;
+  background-color: transparent;
+  color: inherit;
+  border-top: 0;
+  border-bottom: 0
+}
+
+.cc-input-group__append .cc-button, .cc-input-group__append .cc-input, .cc-input-group__prepend .cc-button, .cc-input-group__prepend .cc-input {
+  font-size: inherit
+}
+
+.cc-input-group__prepend {
+  border-right: 0
+}
+
+.cc-input-group__append {
+  border-left: 0
+}
+
+.cc-textarea {
+  display: inline-block;
+  width: 100%;
+  vertical-align: bottom
+}
+
+.cc-textarea.is-disabled .cc-textarea__inner {
+  background-color: #eef1f6;
+  border-color: #d1dbe5;
+  color: #bbb;
+  cursor: not-allowed
+}
+
+.cc-textarea.is-disabled .cc-textarea__inner::-webkit-input-placeholder {
+  color: #bfcbd9
+}
+
+.cc-textarea.is-disabled .cc-textarea__inner::-moz-placeholder {
+  color: #bfcbd9
+}
+
+.cc-textarea.is-disabled .cc-textarea__inner:-ms-input-placeholder {
+  color: #bfcbd9
+}
+
+.cc-textarea.is-disabled .cc-textarea__inner::placeholder {
+  color: #bfcbd9
+}
+
+.cc-textarea__inner {
+  display: block;
+  resize: vertical;
+  padding: 5px 7px;
+  line-height: 1.5;
+  width: 100%;
+  font-size: 14px;
+  color: #1f2d3d;
+  background-color: #fff;
+  border: 1px solid #bfcbd9;
+  border-radius: 4px;
+  transition: border-color .2s cubic-bezier(.645, .045, .355, 1)
+}
+
+.cc-textarea__inner::-webkit-input-placeholder {
+  color: #97a8be
+}
+
+.cc-textarea__inner::-moz-placeholder {
+  color: #97a8be
+}
+
+.cc-textarea__inner:-ms-input-placeholder {
+  color: #97a8be
+}
+
+.cc-textarea__inner::placeholder {
+  color: #97a8be
+}
+
+.cc-textarea__inner:hover {
+  border-color: #8391a5
+}
+
+.cc-textarea__inner:focus {
+  outline: 0;
+  border-color: #20a0ff
+}

@@ -1,0 +1,25 @@
+.ccms-drop-down-tree .el-icon-caret-top{
+  transition: transform .3s;
+  top: 50%;
+  transform: translateY(-50%) rotateZ(180deg);
+}
+.ccms-drop-down-tree .custom-icon {
+  position: absolute;
+  color: #bfcbd9;
+  right: 10px;
+  font-size: 14px;
+}
+
+/*隐藏*/
+.ccms-drop-down-tree .dn {
+  display: none;
+}
+.dropdown-custom {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  width: 100%;
+}
+.dropdown-menu-custom {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}

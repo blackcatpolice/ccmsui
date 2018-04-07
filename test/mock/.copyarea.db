@@ -1,0 +1,9 @@
+ClearCase CopyAreaDB|4
+vobs\cv_ccms-g_code\gnpl\ccms_view\gnpl_vue\test\mock
+2
+5
+14:nplTableInlineManage|2|0|0|0|cf4ac0c81ced11e880090002c207e44c|0
+8:index.js|1|161c709c043|233|0|de07ea061cee11e880220002c207e44c|0
+9:config.js|1|16095e9b6fa|98|0|db2f79341cee11e8800d0002c207e44c|0
+7:mock.js|1|16095d2ddae|d8|0|d187e9ea1cee11e880220002c207e44c|0
+5:table|2|0|0|0|9af936341ced11e880390002c207e44c|0

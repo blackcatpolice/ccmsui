@@ -1,0 +1,5 @@
+﻿{
+  "logOutUrl": "https://22.188.13.173/cas/logout?service=https://22.188.13.172",
+  "dialogue": "http://22.188.13.172/dialogue/index.html",
+  "serverRootName": "/gnpl_web/"
+}

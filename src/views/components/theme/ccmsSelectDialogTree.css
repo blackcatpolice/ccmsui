@@ -1,0 +1,44 @@
+.ccms-dialog-tree .cancelHighLight .el-tree-node.is-current>.el-tree-node__content{
+  background-color:#fff;
+}
+.ccms-dialog-tree .el-tree-node__expand-icon.is-leaf{
+  border-color: transparent;
+  cursor: default;
+}
+.ccms-dialog-tree .el-tree-node__expand-icon {
+  border: 1px solid #ddd;
+  cursor: pointer;
+  width: 0;
+  height: 0;
+  margin-left: 10px;
+  border: 10px solid transparent;
+  border-right-width: 0;
+  border-left-color: #97a8be;
+  border-left-width: 12px;
+  /*-ms-transform: rotate(0);*/
+  /*transform: rotate(0);*/
+  transition: transform .3s ease-in-out;
+}
+.ccms-dialog-tree .bdClass{
+  z-index: 1000;
+}
+/*el-dialog__wrapper dialog-fade-enter-active dialog-fade-enter-to*/
+.ccms-dialog-tree .dialog-fade-enter-active,.custom-dialog-tree .v-modal-enter {
+  opacity: 1;
+  animation: none;
+}
+.ccms-dialog-tree .dialog-fade-leave-active,.custom-dialog-tree .v-modal-leave {
+  opacity: 0;
+  animation: none;
+}
+.ccms-dialog-tree .custom-icon {
+  position: absolute;
+  color: #bfcbd9;
+  right: 10px;
+  top: 10px;
+  font-size: 14px;
+}
+.ccms-dialog-tree .dialog-footer {
+  display: block;
+  text-align: center;
+}
